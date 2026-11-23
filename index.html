@@ -257,18 +257,18 @@
 
     const SUBJECTS = [
       {
-        id: 'matematica', name: 'Matemática', area: 'Matemática', channel: 'ASSAD',
+        id: 'matematica', name: 'Matemática', area: 'Matemática', channel: 'Ferretto e Universo Narrado',
         color: 'indigo', badge: 'bg-indigo-100 text-indigo-800',
         topics: [
           'Matemática básica', 'Operações fundamentais', 'Frações', 'Razão e proporção',
-          'Regra de três', 'Porcentagem', 'Matemática financeira', 'Equações',
-          'Funções', 'Interpretação de gráficos e tabelas', 'Estatística',
-          'Sequências e progressões', 'Geometria plana', 'Geometria espacial',
-          'Trigonometria', 'Análise combinatória', 'Probabilidade', 'Geometria analítica'
+          'Regra de três', 'Porcentagem', 'Matemática financeira', 'Estatística',
+          'Probabilidade', 'Análise combinatória', 'Geometria plana', 'Geometria espacial',
+          'Geometria analítica', 'Funções', 'Equações', 'Sequências e progressões',
+          'Trigonometria', 'Interpretação de gráficos e tabelas'
         ]
       },
       {
-        id: 'fisica', name: 'Física', area: 'Natureza', channel: 'ASSAD',
+        id: 'fisica', name: 'Física', area: 'Natureza', channel: 'Ferretto',
         color: 'sky', badge: 'bg-sky-100 text-sky-800',
         topics: [
           'Cinemática', 'Dinâmica', 'Leis de Newton', 'Trabalho e energia',
@@ -278,7 +278,7 @@
         ]
       },
       {
-        id: 'quimica', name: 'Química', area: 'Natureza', channel: 'ASSAD',
+        id: 'quimica', name: 'Química', area: 'Natureza', channel: 'Ferretto',
         color: 'teal', badge: 'bg-teal-100 text-teal-800',
         topics: [
           'Estrutura atômica', 'Tabela periódica', 'Ligações químicas', 'Funções inorgânicas',
@@ -288,7 +288,7 @@
         ]
       },
       {
-        id: 'biologia', name: 'Biologia', area: 'Natureza', channel: 'ASSAD',
+        id: 'biologia', name: 'Biologia', area: 'Natureza', channel: 'Landim (Ferretto)',
         color: 'emerald', badge: 'bg-emerald-100 text-emerald-800',
         topics: [
           'Citologia', 'Bioquímica', 'Metabolismo energético', 'Genética',
@@ -297,7 +297,7 @@
         ]
       },
       {
-        id: 'linguagens', name: 'Linguagens', area: 'Linguagens', channel: 'ASSAD',
+        id: 'linguagens', name: 'Linguagens', area: 'Linguagens', channel: 'Ferretto',
         color: 'violet', badge: 'bg-violet-100 text-violet-800',
         topics: [
           'Interpretação e compreensão textual', 'Gêneros textuais', 'Funções da linguagem',
@@ -307,45 +307,45 @@
         ]
       },
       {
-        id: 'historia', name: 'História', area: 'Humanas', channel: 'Débora Aladim',
+        id: 'historia', name: 'História', area: 'Humanas', channel: 'Ferretto e Parabólica',
         color: 'amber', badge: 'bg-amber-100 text-amber-800',
         topics: [
-          'História Geral', 'Antiguidade', 'Idade Média', 'Idade Moderna',
-          'Revoluções', 'História da África e dos povos indígenas', 'História do Brasil',
-          'Brasil Colônia, Império e República', 'Escravidão e abolição', 'Era Vargas',
-          'Guerras Mundiais', 'Guerra Fria', 'Ditadura Militar', 'Redemocratização'
+          'História do Brasil', 'Brasil Colônia, Império e República', 'Escravidão e abolição',
+          'Era Vargas', 'Ditadura Militar', 'Redemocratização', 'História Geral',
+          'Antiguidade', 'Idade Média', 'Idade Moderna', 'Revoluções',
+          'Guerras Mundiais', 'Guerra Fria', 'História da África e dos povos indígenas'
         ]
       },
       {
-        id: 'geografia', name: 'Geografia', area: 'Humanas', channel: 'Thais Formagio',
+        id: 'geografia', name: 'Geografia', area: 'Humanas', channel: 'Ferretto',
         color: 'orange', badge: 'bg-orange-100 text-orange-800',
         topics: [
           'Cartografia', 'Geografia física', 'Clima', 'Relevo', 'Hidrografia',
-          'Biomas', 'População', 'Urbanização', 'Industrialização',
-          'Geografia agrária', 'Questões territoriais brasileiras', 'Meio ambiente',
-          'Globalização', 'Geopolítica'
+          'Biomas', 'Geografia agrária', 'Urbanização', 'Industrialização',
+          'População', 'Geopolítica', 'Globalização', 'Meio ambiente',
+          'Questões territoriais brasileiras'
         ]
       },
       {
-        id: 'filosofia', name: 'Filosofia', area: 'Humanas', channel: 'Parabólica',
+        id: 'filosofia', name: 'Filosofia', area: 'Humanas', channel: 'Ferretto e Parabólica',
         color: 'fuchsia', badge: 'bg-fuchsia-100 text-fuchsia-800',
         topics: [
           'Filosofia antiga', 'Sócrates, Platão e Aristóteles', 'Filosofia medieval',
-          'Filosofia moderna', 'Iluminismo', 'Contratualistas', 'Conhecimento',
-          'Ética', 'Política', 'Existencialismo', 'Filosofia contemporânea'
+          'Filosofia moderna', 'Iluminismo', 'Contratualistas', 'Ética',
+          'Política', 'Conhecimento', 'Existencialismo', 'Filosofia contemporânea'
         ]
       },
       {
-        id: 'sociologia', name: 'Sociologia', area: 'Humanas', channel: 'Parabólica',
+        id: 'sociologia', name: 'Sociologia', area: 'Humanas', channel: 'Ferretto e Parabólica',
         color: 'pink', badge: 'bg-pink-100 text-pink-800',
         topics: [
-          'Cultura e sociedade', 'Socialização', 'Pensadores clássicos', 'Desigualdade social',
-          'Classes sociais', 'Trabalho', 'Cidadania', 'Movimentos sociais',
-          'Poder e política', 'Indústria cultural', 'Globalização', 'Questões sociais brasileiras'
+          'Cultura e sociedade', 'Socialização', 'Desigualdade social', 'Classes sociais',
+          'Trabalho', 'Cidadania', 'Movimentos sociais', 'Poder e política',
+          'Indústria cultural', 'Globalização', 'Pensadores clássicos', 'Questões sociais brasileiras'
         ]
       },
       {
-        id: 'atualidades', name: 'Atualidades', area: 'Humanas', channel: 'Parabólica',
+        id: 'atualidades', name: 'Atualidades', area: 'Humanas', channel: 'Ferretto e Parabólica',
         color: 'cyan', badge: 'bg-cyan-100 text-cyan-800',
         topics: [
           'Política brasileira e internacional', 'Economia', 'Meio ambiente',
@@ -354,7 +354,17 @@
         ]
       },
       {
-        id: 'literatura', name: 'Literatura', area: 'Linguagens', channel: 'Ferretto / Livre',
+        id: 'redacao', name: 'Redação', area: 'Redação', channel: 'Fernanda Pessoa',
+        color: 'rose', badge: 'bg-rose-100 text-rose-800',
+        topics: [
+          'Estrutura dissertativo-argumentativa', 'As cinco competências', 'Construção de tese',
+          'Planejamento textual', 'Introdução', 'Desenvolvimento', 'Conclusão',
+          'Proposta de intervenção', 'Repertório sociocultural', 'Coesão e coerência',
+          'Gramática aplicada', 'Argumentação autoral'
+        ]
+      },
+      {
+        id: 'literatura', name: 'Literatura', area: 'Linguagens', channel: 'Ferretto',
         color: 'purple', badge: 'bg-purple-100 text-purple-800',
         topics: [
           'Gêneros literários e teoria da literatura', 'Quinhentismo e Barroco', 'Arcadismo',
@@ -363,22 +373,12 @@
         ]
       },
       {
-        id: 'ingles', name: 'Inglês', area: 'Linguagens', channel: 'Ferretto / Livre',
+        id: 'ingles', name: 'Inglês', area: 'Linguagens', channel: 'Ferretto',
         color: 'blue', badge: 'bg-blue-100 text-blue-800',
         topics: [
           'Estratégias de leitura (Skimming e Scanning)', 'Cognatos e falsos cognatos',
           'Tempos verbais aplicados à leitura', 'Conectivos e referência pronominal',
           'Interpretação de tirinhas, charges, poemas e notícias'
-        ]
-      },
-      {
-        id: 'redacao', name: 'Redação', area: 'Redação', channel: 'Ferretto + Luma e Ponto + Fernanda Pessoa',
-        color: 'rose', badge: 'bg-rose-100 text-rose-800',
-        topics: [
-          'Estrutura dissertativo-argumentativa', 'As cinco competências', 'Construção de tese',
-          'Planejamento textual', 'Introdução', 'Desenvolvimento', 'Conclusão',
-          'Proposta de intervenção', 'Repertório sociocultural', 'Coesão e coerência',
-          'Gramática aplicada', 'Argumentação autoral'
         ]
       }
     ];
@@ -386,7 +386,70 @@
     const FERRETTO_SUBJECT_IDS = [
       'matematica', 'fisica', 'quimica', 'biologia',
       'historia', 'geografia', 'filosofia', 'sociologia',
-      'linguagens', 'literatura', 'ingles', 'redacao'
+      'linguagens', 'redacao', 'atualidades', 'literatura', 'ingles'
+    ];
+
+    const DEFAULT_SEED_TEACHERS = [
+      {
+        id: 'prof_seed_ferretto',
+        name: 'Ferretto',
+        avatar: '',
+        subjectIds: ['matematica', 'fisica', 'quimica', 'historia', 'filosofia', 'sociologia', 'geografia', 'linguagens', 'atualidades', 'literatura', 'ingles'],
+        bio: 'Plataforma Ferretto (identificação provisória). Você pode editar ou cadastrar os professores específicos posteriormente.',
+        moduleSummary: 'Aulas e módulos da plataforma Ferretto.',
+        profileUrl: '',
+        extraLinks: '',
+        notes: 'Identificação provisória da plataforma.',
+        isProvisional: true
+      },
+      {
+        id: 'prof_seed_universo_narrado',
+        name: 'Universo Narrado',
+        avatar: '',
+        subjectIds: ['matematica'],
+        bio: 'Plataforma Universo Narrado — Matemática (identificação provisória editável).',
+        moduleSummary: 'Matemática (Universo Narrado).',
+        profileUrl: '',
+        extraLinks: '',
+        notes: 'Opção selecionável em Matemática junto com Ferretto.',
+        isProvisional: true
+      },
+      {
+        id: 'prof_seed_landim',
+        name: 'Landim (Ferretto)',
+        avatar: '',
+        subjectIds: ['biologia'],
+        bio: 'Professor Landim — Biologia na plataforma Ferretto.',
+        moduleSummary: 'Biologia completa (Ferretto).',
+        profileUrl: '',
+        extraLinks: '',
+        notes: '',
+        isProvisional: false
+      },
+      {
+        id: 'prof_seed_parabolica',
+        name: 'Parabólica',
+        avatar: '',
+        subjectIds: ['historia', 'filosofia', 'sociologia', 'atualidades'],
+        bio: 'Plataforma / Canal Parabólica — Ciências Humanas e Atualidades.',
+        moduleSummary: 'História, Filosofia, Sociologia e Atualidades.',
+        profileUrl: '',
+        extraLinks: '',
+        notes: 'Opção selecionável junto com Ferretto em Humanas e Atualidades.',
+        isProvisional: true
+      },
+      {
+        id: 'prof_seed_fernanda_pessoa',
+        name: 'Fernanda Pessoa',
+        avatar: '',
+        subjectIds: ['redacao'],
+        bio: 'Curso Fernanda Pessoa — Redação para o ENEM.',
+        moduleSummary: 'Estrutura, Repertório Sociocultural, Aulas Mistas e Gramática na Prática.',
+        profileUrl: '',
+        extraLinks: '',
+        notes: '',
+        isProvisional: false
+      }
     ];
 
     const SUBJECT_MAP = Object.fromEntries(SUBJECTS.map(s => [s.id, s]));
@@ -907,32 +970,74 @@
         ferrettoLessons: [], // { id, subjectId, moduleId, teacherId, title, content, duration, link, notes, materials, exercises, exercisesDone, needsReview, done, completedAt, order }
         ferrettoSubjectExtras: {}, // { [subjectId]: { notes, materials: [{id, title, url}], exercises: [{id, title, total, done, link}] } }
         ferrettoScheduleActivities: [], // { id, date, subjectId, teacherId, moduleId, lessonId, customLessonTitle, duration, done, completedAt, notes }
-        taskFerrettoLinks: {} // { [taskId]: { teacherId, moduleId, lessonId } }
+        taskFerrettoLinks: {}, // { [taskId]: { teacherId, moduleId, lessonId } }
+        dismissedSeedTeacherIds: [] // IDs of provisional seeded teachers explicitly deleted by user
       };
+    }
+
+    function ensureDefaultTeachersAndAssociations(st) {
+      if (!Array.isArray(st.ferrettoTeachers)) st.ferrettoTeachers = [];
+      if (!Array.isArray(st.dismissedSeedTeacherIds)) st.dismissedSeedTeacherIds = [];
+      let changed = false;
+
+      DEFAULT_SEED_TEACHERS.forEach(seed => {
+        if (st.dismissedSeedTeacherIds.includes(seed.id)) return;
+        const existingById = st.ferrettoTeachers.find(t => t.id === seed.id);
+        const existingByName = st.ferrettoTeachers.find(t => t.name && t.name.trim().toLowerCase() === seed.name.trim().toLowerCase());
+        const existing = existingById || existingByName;
+        if (!existing) {
+          st.ferrettoTeachers.push({
+            ...seed,
+            subjectIds: [...seed.subjectIds],
+            createdAt: formatISO(new Date())
+          });
+          changed = true;
+        } else {
+          // Non-destructively ensure required subjects are associated without removing user's custom subjects
+          if (!Array.isArray(existing.subjectIds)) existing.subjectIds = [];
+          seed.subjectIds.forEach(sid => {
+            if (!existing.subjectIds.includes(sid)) {
+              existing.subjectIds.push(sid);
+              changed = true;
+            }
+          });
+        }
+      });
+      return changed;
     }
 
     let state = loadState();
 
     function loadState() {
+      let loaded;
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        if (!raw) return getDefaultState();
-        const parsed = JSON.parse(raw);
-        const def = getDefaultState();
-        return {
-          ...def,
-          ...parsed,
-          uepbTracker: { ...def.uepbTracker, ...(parsed.uepbTracker || {}) },
-          ferrettoTeachers: Array.isArray(parsed.ferrettoTeachers) ? parsed.ferrettoTeachers : [],
-          ferrettoModules: Array.isArray(parsed.ferrettoModules) ? parsed.ferrettoModules : [],
-          ferrettoLessons: Array.isArray(parsed.ferrettoLessons) ? parsed.ferrettoLessons : [],
-          ferrettoSubjectExtras: parsed.ferrettoSubjectExtras || {},
-          ferrettoScheduleActivities: Array.isArray(parsed.ferrettoScheduleActivities) ? parsed.ferrettoScheduleActivities : [],
-          taskFerrettoLinks: parsed.taskFerrettoLinks || {}
-        };
+        if (!raw) {
+          loaded = getDefaultState();
+        } else {
+          const parsed = JSON.parse(raw);
+          const def = getDefaultState();
+          loaded = {
+            ...def,
+            ...parsed,
+            uepbTracker: { ...def.uepbTracker, ...(parsed.uepbTracker || {}) },
+            ferrettoTeachers: Array.isArray(parsed.ferrettoTeachers) ? parsed.ferrettoTeachers : [],
+            ferrettoModules: Array.isArray(parsed.ferrettoModules) ? parsed.ferrettoModules : [],
+            ferrettoLessons: Array.isArray(parsed.ferrettoLessons) ? parsed.ferrettoLessons : [],
+            ferrettoSubjectExtras: parsed.ferrettoSubjectExtras || {},
+            ferrettoScheduleActivities: Array.isArray(parsed.ferrettoScheduleActivities) ? parsed.ferrettoScheduleActivities : [],
+            taskFerrettoLinks: parsed.taskFerrettoLinks || {},
+            dismissedSeedTeacherIds: Array.isArray(parsed.dismissedSeedTeacherIds) ? parsed.dismissedSeedTeacherIds : []
+          };
+        }
       } catch (e) {
-        return getDefaultState();
+        loaded = getDefaultState();
       }
+      const seededNow = ensureDefaultTeachersAndAssociations(loaded);
+      if (seededNow) {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(loaded)); } catch (_) {}
+      }
+      return loaded;
     }
 
     function saveState() {
@@ -1091,7 +1196,7 @@
     let calendarMonthKey = selectedCronogramaDate.slice(0, 7);
     let calendarWeekDate = selectedCronogramaDate;
     let activeDisciplinaId = 'matematica';
-    let activeDisciplinaView = 'ferretto'; // 'ferretto' | 'enem'
+    let activeDisciplinaView = 'enem'; // 'enem' (Conteúdos Programáticos) | 'ferretto' (Módulos Personalizados)
     let activeFerrettoLessonFilter = 'todas'; // 'todas' | 'pendentes' | 'concluidas' | 'revisar'
     let profSearchQuery = '';
     let profFilterSubject = 'todas';
@@ -1340,8 +1445,8 @@
             <button onclick="navigateTo('professores')" class="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition flex items-center gap-1.5">
               <i data-lucide="users" class="w-3.5 h-3.5"></i> Biblioteca de Professores
             </button>
-            <button onclick="activeDisciplinaView='ferretto'; navigateTo('disciplinas')" class="px-3.5 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold transition flex items-center gap-1.5">
-              <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Disciplinas Ferretto
+            <button onclick="activeDisciplinaView='enem'; navigateTo('disciplinas')" class="px-3.5 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold transition flex items-center gap-1.5">
+              <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Disciplinas & Conteúdos
             </button>
           </div>
         </div>
@@ -1624,8 +1729,9 @@
                       <div class="flex flex-wrap items-center gap-2 mb-1.5">
                         <span class="text-xs font-bold px-2.5 py-0.5 rounded-full ${badgeClass}">Bloco ${idx + 1} • ${t.subjectName}</span>
                         <span class="text-xs font-medium text-slate-500 flex items-center gap-1">
-                          <i data-lucide="youtube" class="w-3.5 h-3.5 text-rose-500"></i> ${t.channel}
+                          <i data-lucide="graduation-cap" class="w-3.5 h-3.5 text-teal-600"></i> ${escapeHtml(getTeacherById(tp.teacherId)?.name || t.channel)}
                         </span>
+                        ${SUBJECT_MAP[t.subjectId] ? renderBlockTeacherMiniSelect(t.id, t.subjectId, tp.teacherId) : ''}
                       </div>
                       <h4 class="font-display font-bold text-base sm:text-lg ${tp.done ? 'line-through text-slate-400' : 'text-slate-900'}">${escapeHtml(t.topic)}</h4>
                       <p class="text-sm text-slate-600 mt-1"><strong>Objetivo:</strong> ${escapeHtml(t.objective)}</p>
@@ -1932,11 +2038,11 @@
             <p class="text-sm text-slate-500">Organize seus professores, módulos e aulas do Ferretto ou acompanhe o conteúdo programático base do ENEM.</p>
           </div>
           <div class="bg-white border border-slate-200 rounded-xl p-1 flex self-start shadow-xs">
-            <button onclick="setDisciplinaView('ferretto')" class="px-3.5 py-2 rounded-lg text-xs font-bold transition flex items-center gap-1.5 ${activeDisciplinaView === 'ferretto' ? 'bg-emerald-600 text-white shadow-xs' : 'text-slate-600 hover:bg-slate-100'}">
-              <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i> Cursinho Ferretto (12)
-            </button>
             <button onclick="setDisciplinaView('enem')" class="px-3.5 py-2 rounded-lg text-xs font-bold transition flex items-center gap-1.5 ${activeDisciplinaView === 'enem' ? 'bg-emerald-600 text-white shadow-xs' : 'text-slate-600 hover:bg-slate-100'}">
-              <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Conteúdo Base ENEM
+              <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Conteúdos Programáticos
+            </button>
+            <button onclick="setDisciplinaView('ferretto')" class="px-3.5 py-2 rounded-lg text-xs font-bold transition flex items-center gap-1.5 ${activeDisciplinaView === 'ferretto' ? 'bg-emerald-600 text-white shadow-xs' : 'text-slate-600 hover:bg-slate-100'}">
+              <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i> Módulos & Aulas (Ferretto)
             </button>
           </div>
         </div>
@@ -1964,6 +2070,9 @@
       const activeSubj = SUBJECT_MAP[activeDisciplinaId] || SUBJECTS[0];
       const doneTopics = activeSubj.topics.filter((_, i) => state.syllabusProgress[`${activeSubj.id}_${i}`]?.done).length;
       const pct = Math.round((doneTopics / activeSubj.topics.length) * 100);
+      const subjTeachers = state.ferrettoTeachers.filter(t => (t.subjectIds || []).includes(activeSubj.id));
+      const otherTeachers = state.ferrettoTeachers.filter(t => !(t.subjectIds || []).includes(activeSubj.id));
+      const defaultTeacherId = subjTeachers.length === 1 ? subjTeachers[0].id : '';
 
       container.innerHTML = `
         <!-- Subject Selector Pills -->
@@ -1984,11 +2093,11 @@
 
         <!-- Active Subject Card -->
         <div class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-xs">
-          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-slate-100 mb-5">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
             <div>
-              <div class="flex items-center gap-2">
+              <div class="flex flex-wrap items-center gap-2">
                 <span class="text-xs font-bold px-2.5 py-0.5 rounded-full ${activeSubj.badge}">${activeSubj.area}</span>
-                <span class="text-xs font-semibold text-slate-500">Fonte principal: <strong class="text-slate-800">${activeSubj.channel}</strong></span>
+                <span class="text-xs font-semibold text-slate-500">Plataforma / Professor: <strong class="text-slate-800">${escapeHtml(activeSubj.channel)}</strong></span>
               </div>
               <h3 class="font-display text-xl font-extrabold text-slate-900 mt-1">${activeSubj.name}</h3>
             </div>
@@ -2003,27 +2112,65 @@
             </div>
           </div>
 
+          <!-- Associated Professors / Platforms Bar -->
+          <div class="py-3.5 mb-4 border-b border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-xs font-bold text-slate-600">Professores / Plataformas disponíveis:</span>
+              ${subjTeachers.length === 0 ? `
+                <span class="text-xs text-slate-400 italic">Nenhum professor associado ainda.</span>
+              ` : subjTeachers.map(t => `
+                <button onclick="viewingTeacherId='${t.id}'; navigateTo('professores')" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-teal-50 hover:bg-teal-100 border border-teal-200 transition">
+                  ${renderTeacherAvatar(t, 'w-5 h-5 text-[9px]')}
+                  <span class="text-xs font-bold text-teal-900">${escapeHtml(t.name)}</span>
+                </button>
+              `).join('')}
+            </div>
+            <button onclick="openNewTeacherForm(); navigateTo('professores')" class="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition self-start sm:self-auto shrink-0">
+              + Cadastrar Professor
+            </button>
+          </div>
+
           <div class="space-y-3">
             ${activeSubj.topics.map((topic, idx) => {
               const key = `${activeSubj.id}_${idx}`;
-              const sp = state.syllabusProgress[key] || { done: false, link: '' };
+              const sp = state.syllabusProgress[key] || { done: false, link: '', teacherId: '' };
+              const chosenTeacherId = sp.teacherId || defaultTeacherId;
+              const chosenTeacher = getTeacherById(chosenTeacherId);
+              const searchSource = chosenTeacher ? chosenTeacher.name : activeSubj.channel;
               return `
-                <div class="p-4 rounded-2xl border ${sp.done ? 'bg-emerald-50/40 border-emerald-200' : 'bg-slate-50/70 border-slate-200'} flex flex-col lg:flex-row lg:items-center justify-between gap-3">
-                  <div class="flex items-start gap-3">
-                    <input type="checkbox" ${sp.done ? 'checked' : ''} onchange="toggleSyllabusTopic('${key}', '${activeSubj.id}', '${escapeHtml(topic)}')" class="mt-0.5 w-5 h-5 rounded accent-emerald-600 cursor-pointer shrink-0" />
-                    <div>
-                      <p class="text-sm font-bold ${sp.done ? 'line-through text-slate-500' : 'text-slate-900'}">${idx + 1}. ${escapeHtml(topic)}</p>
-                      <p class="text-xs text-slate-500">Pesquisar em: <strong>${activeSubj.channel}</strong></p>
+                <div class="p-4 rounded-2xl border ${sp.done ? 'bg-emerald-50/40 border-emerald-200' : 'bg-slate-50/70 border-slate-200'} flex flex-col gap-3">
+                  <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+                    <div class="flex items-start gap-3">
+                      <input type="checkbox" ${sp.done ? 'checked' : ''} onchange="toggleSyllabusTopic('${key}', '${activeSubj.id}', '${escapeHtml(topic)}')" class="mt-0.5 w-5 h-5 rounded accent-emerald-600 cursor-pointer shrink-0" />
+                      <div>
+                        <p class="text-sm font-bold ${sp.done ? 'line-through text-slate-500' : 'text-slate-900'}">${idx + 1}. ${escapeHtml(topic)}</p>
+                        <p class="text-xs text-slate-500">Professor / Plataforma: <strong class="text-teal-800">${escapeHtml(chosenTeacher ? chosenTeacher.name : activeSubj.channel)}</strong></p>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-2 justify-end">
+                      <!-- Selectable Professor / Platform per Topic -->
+                      <select onchange="saveSyllabusTeacher('${key}', this.value)" title="Escolher professor ou plataforma para este conteúdo" class="bg-white border border-teal-200 rounded-xl px-2.5 py-1.5 text-xs font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500">
+                        ${subjTeachers.length > 1 ? `<option value="" ${!chosenTeacherId ? 'selected' : ''}>Escolher professor/plataforma...</option>` : ''}
+                        ${subjTeachers.length ? `<optgroup label="Associados a ${activeSubj.name}">${subjTeachers.map(t => `<option value="${t.id}" ${chosenTeacherId === t.id ? 'selected' : ''}>${escapeHtml(t.name)}</option>`).join('')}</optgroup>` : ''}
+                        ${otherTeachers.length ? `<optgroup label="Outros da Biblioteca">${otherTeachers.map(t => `<option value="${t.id}" ${chosenTeacherId === t.id ? 'selected' : ''}>${escapeHtml(t.name)}</option>`).join('')}</optgroup>` : ''}
+                      </select>
+
+                      <a href="${ytSearchUrl(`${searchSource} ${topic} ENEM`)}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-700 text-xs font-semibold flex items-center gap-1.5 transition shrink-0">
+                        <i data-lucide="youtube" class="w-3.5 h-3.5"></i> Buscar Aula
+                      </a>
+                      <button onclick="scheduleSyllabusTopicToToday('${activeSubj.id}', '${escapeHtml(topic)}', '${chosenTeacherId}')" class="px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs font-semibold transition shrink-0" title="Enviar este conteúdo para o dia selecionado no Cronograma">
+                        + Cronograma
+                      </button>
+                      <button onclick="manualScheduleReview('${activeSubj.id}', '${escapeHtml(topic)}')" class="px-3 py-1.5 rounded-xl bg-teal-50 hover:bg-teal-100 text-teal-800 text-xs font-semibold transition shrink-0" title="Agendar revisões 24h, 7d e 30d">
+                        + Revisão
+                      </button>
                     </div>
                   </div>
-                  <div class="flex flex-wrap items-center gap-2 lg:w-1/2 justify-end">
-                    <a href="${ytSearchUrl(`${activeSubj.channel} ${topic} ENEM`)}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-700 text-xs font-semibold flex items-center gap-1.5 transition shrink-0">
-                      <i data-lucide="youtube" class="w-3.5 h-3.5"></i> YouTube
-                    </a>
-                    <input type="url" placeholder="Salvar link da aula..." value="${escapeHtml(sp.link || '')}" onchange="saveSyllabusLink('${key}', this.value)" class="flex-1 min-w-[160px] bg-white border border-slate-200 rounded-xl px-3 py-1.5 text-xs focus:outline-none focus:ring-2 focus:ring-emerald-500" />
-                    <button onclick="manualScheduleReview('${activeSubj.id}', '${escapeHtml(topic)}')" class="px-3 py-1.5 rounded-xl bg-teal-50 hover:bg-teal-100 text-teal-800 text-xs font-semibold transition shrink-0" title="Agendar revisões 24h, 7d e 30d">
-                      + Revisão 24h/7d/30d
-                    </button>
+
+                  <div class="flex flex-wrap items-center gap-2 pl-8">
+                    <input type="url" placeholder="Cole aqui o link da aula (${escapeHtml(searchSource)})..." value="${escapeHtml(sp.link || '')}" onchange="saveSyllabusLink('${key}', this.value)" class="flex-1 min-w-[200px] bg-white border border-slate-200 rounded-xl px-3 py-1.5 text-xs focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+                    ${sp.link ? `<a href="${escapeHtml(sp.link)}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shrink-0">Abrir aula ↗</a>` : ''}
                   </div>
                 </div>
               `;
@@ -2031,6 +2178,33 @@
           </div>
         </div>
       `;
+    }
+
+    function saveSyllabusTeacher(key, teacherId) {
+      if (!state.syllabusProgress[key]) state.syllabusProgress[key] = {};
+      state.syllabusProgress[key].teacherId = teacherId;
+      saveState();
+      const prof = getTeacherById(teacherId);
+      showToast(prof ? `Professor/plataforma definido: ${prof.name}` : 'Seleção limpa.', 'info');
+      renderCurrentPage();
+    }
+
+    function scheduleSyllabusTopicToToday(subjId, topic, teacherId) {
+      state.ferrettoScheduleActivities.push({
+        id: `fact_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+        date: selectedCronogramaDate,
+        subjectId: subjId,
+        teacherId: teacherId || '',
+        moduleId: '',
+        lessonId: '',
+        customLessonTitle: topic,
+        duration: 45,
+        done: false,
+        completedAt: null,
+        notes: ''
+      });
+      saveState();
+      showToast(`"${topic}" adicionado ao cronograma de ${formatBR(selectedCronogramaDate)}!`);
     }
 
     function selectDisciplina(id) { activeDisciplinaId = id; renderCurrentPage(); }
@@ -3912,6 +4086,9 @@
         'O professor será removido da Biblioteca, mas seus módulos, aulas e registros do cronograma serão preservados (ficando apenas sem professor vinculado).',
         () => {
           state.ferrettoTeachers = state.ferrettoTeachers.filter(x => x.id !== id);
+          if (DEFAULT_SEED_TEACHERS.some(s => s.id === id) && !state.dismissedSeedTeacherIds.includes(id)) {
+            state.dismissedSeedTeacherIds.push(id);
+          }
           state.ferrettoModules.forEach(m => { if (m.teacherId === id) m.teacherId = ''; });
           state.ferrettoLessons.forEach(l => { if (l.teacherId === id) l.teacherId = ''; });
           state.ferrettoScheduleActivities.forEach(a => { if (a.teacherId === id) a.teacherId = ''; });
@@ -5123,6 +5300,21 @@
       saveState();
       showToast(`Aula reagendada para ${formatBR(act.date)}!`);
       renderCurrentPage();
+    }
+
+
+    function renderBlockTeacherMiniSelect(taskId, subjId, selectedTeacherId) {
+      const matching = state.ferrettoTeachers.filter(t => (t.subjectIds || []).includes(subjId));
+      const others = state.ferrettoTeachers.filter(t => !(t.subjectIds || []).includes(subjId));
+      if (matching.length === 0 && others.length === 0) return '';
+      const autoSel = selectedTeacherId || (matching.length === 1 ? matching[0].id : '');
+      return `
+        <select onchange="updateTaskField('${taskId}', 'teacherId', this.value); renderCurrentPage();" class="bg-slate-50 border border-slate-200 rounded-lg px-2 py-0.5 text-[11px] font-semibold text-teal-800 focus:outline-none focus:ring-1 focus:ring-teal-500" title="Escolher professor ou plataforma para esta atividade">
+          ${matching.length > 1 ? `<option value="" ${!autoSel ? 'selected' : ''}>Escolher prof./plat...</option>` : ''}
+          ${matching.map(t => `<option value="${t.id}" ${autoSel === t.id ? 'selected' : ''}>${escapeHtml(t.name)}</option>`).join('')}
+          ${others.length ? `<optgroup label="Outros">${others.map(t => `<option value="${t.id}" ${autoSel === t.id ? 'selected' : ''}>${escapeHtml(t.name)}</option>`).join('')}</optgroup>` : ''}
+        </select>
+      `;
     }
 
     /* =========================================================================
